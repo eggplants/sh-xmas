@@ -1,7 +1,6 @@
 # sh-xmas
 
 - Plant X'mas tree(s) on your Terminal
-- Improved script to make [liquidz/clj-xmas](https://github.com/liquidz/clj-xmas) more portable and faster
 
 ## Install
 
@@ -46,3 +45,17 @@ Version:
 ## License
 
 MIT
+
+---
+
+## Other implementation
+
+- Node.js(Original)
+  - [npm/cli/lib/xmas.js](https://github.com/npm/cli/blob/v6.14.15/lib/xmas.js)
+  - removed since npm v7.0.0
+- Perl
+  - [sugyan/xmas.pl](https://gist.github.com/sugyan/1011836)
+- Ruby
+  - [kwappa/pebbles-xmas](https://github.com/kwappa/pebbles-xmas)
+- Clojure
+  - [liquidz/clj-xmas](https://github.com/liquidz/clj-xmas)
