@@ -39,6 +39,10 @@ Version:
  0.0.1
 ```
 
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/42153744/146625307-abe3b93b-be61-475b-ac21-76ee38e4bb11.png)
+
 ## License
 
 MIT
