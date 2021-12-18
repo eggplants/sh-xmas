@@ -41,7 +41,7 @@ Version:
 
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/42153744/146625307-abe3b93b-be61-475b-ac21-76ee38e4bb11.png)
+![image](https://user-images.githubusercontent.com/42153744/146652569-d5c218ba-dfe8-4873-90ba-1106517c1d7e.png)
 
 ## License
 
