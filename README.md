@@ -6,7 +6,7 @@
 ## Install
 
 ```bash
-wget 
+wget https://raw.githubusercontent.com/eggplants/sh-xmas/master/xmas
 
 # local
 chmod +x xmas
