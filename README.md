@@ -21,21 +21,22 @@ xmas
 ```shellsession
 $ xmas -h
 
-xmas -- Plant X'mas tree(s)
+./xmas -- Plant X'mas tree(s)
 
-Usage: xmas [options]
+Usage: ./xmas [options]
 
 Options:
- -s, --size <POSITIVE SIZE>  game level (default=5)
- -n, --number <POSITIVE NUM> number of tree (default=1)
- -a, --animation             enable animation
- -i, --interval <NUM>        animation interval (default=1)
- -m, --monochrome            disable color
+ -s, --size <POSITIVE INT>    game level (default=5)
+ -n, --number <POSITIVE INT>  number of tree (default=1)
+ -l, --line <POSITIVE INT>    number of line (default=1)
+ -a, --animation              enable animation
+ -i, --interval <NATURAL INT> animation interval (default=1)
+ -m, --monochrome             disable color
  -h, --help     display this help and exit
  -v, --version  output version infromation and exit
 
 Version:
- 0.0.1
+ 0.0.2
 ```
 
 ## Screenshot
