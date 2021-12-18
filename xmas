@@ -118,7 +118,7 @@ main() {
         ;;
       -s | --size)
         if [[ -z $2 ]] || [[ $2 =~ ^-+ ]] || [ "$2" -lt 1 ]; then
-          echo "error: option '$1' requires positive int -- $1" >&2
+          echo "error: option '$1' requires positive int -- $2" >&2
           return 1
         fi
         size="$2"
