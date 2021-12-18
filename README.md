@@ -30,7 +30,7 @@ Options:
  -s, --size <POSITIVE SIZE>  game level (default=5)
  -n, --number <POSITIVE NUM> number of tree (default=1)
  -a, --animation             enable animation
- -i, --interval <NUM=1>      animation interval (default=1)
+ -i, --interval <NUM>        animation interval (default=1)
  -m, --monochrome            disable color
  -h, --help     display this help and exit
  -v, --version  output version infromation and exit
