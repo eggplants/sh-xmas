@@ -19,7 +19,7 @@ xmas
 ## Usage
 
 ```shellsession
-$ xmas -h
+$ ./xmas -h
 
 ./xmas -- Plant X'mas tree(s)
 
