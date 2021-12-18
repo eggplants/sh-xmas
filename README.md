@@ -22,9 +22,9 @@ xmas
 ```shellsession
 $ xmas -h
 
-./xmas -- Show X'mas tree
+xmas -- Show X'mas tree
 
-Usage: ./xmas [options]
+Usage: xmas [options]
 
 Options:
  -s, --size <POSITIVE SIZE>  game level (default=5)
