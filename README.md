@@ -1,6 +1,6 @@
-# sh-xmastree
+# sh-xmas
 
-- Plant X'mas tree on your Terminal
+- Plant X'mas tree(s) on your Terminal
 - Improved script to make [liquidz/clj-xmas](https://github.com/liquidz/clj-xmas) more portable and faster
 
 ## Install
