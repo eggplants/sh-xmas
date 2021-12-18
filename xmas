@@ -13,7 +13,7 @@ trunk='\e[31m| |\e[m'
 
 _help() {
   echo "
-$0 -- Show X'mas tree
+$0 -- Plant X'mas tree(s)
 
 Usage: $0 [options]
 

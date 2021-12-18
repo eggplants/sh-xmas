@@ -22,7 +22,7 @@ xmas
 ```shellsession
 $ xmas -h
 
-xmas -- Show X'mas tree
+xmas -- Plant X'mas tree(s)
 
 Usage: xmas [options]
 
