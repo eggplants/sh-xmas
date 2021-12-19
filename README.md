@@ -6,13 +6,7 @@
 
 ```bash
 curl -sSLo xmas https://git.io/JDi1J
-
-# local
-chmod +x xmas
-./xmas
-
-# global
-sudo install xmas /usr/local/bin
+sudo install -m+x xmas /usr/local/bin
 xmas
 ```
 
