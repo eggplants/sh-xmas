@@ -127,7 +127,7 @@ main() {
         return 0
         ;;
       -s | --size)
-        if [[ -z $2 ]] || [[ $2 =~ ^-+ ]] || [ "$2" -lt 1 ]; then
+        if [[ -z $2 ]] || ! [[ $2 =~ ^[0-9]+$ ]] || [ "$2" -lt 1 ]; then
           echo "error: option '$1' requires positive int -- $2" >&2
           return 1
         fi
