@@ -4,9 +4,18 @@
 
 ## Install
 
+### From GitHub
+
 ```bash
 curl -sSLo xmas https://git.io/JDi1J
 sudo install xmas /usr/local/bin
+xmas # launch
+```
+
+### From Docker(Hub)
+
+```bash
+docker run --rm -it eggplanter/sh-xmas # launch
 ```
 
 ## Usage
