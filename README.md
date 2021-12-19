@@ -19,7 +19,7 @@ xmas # launch
 ### From Docker(Hub)
 
 ```bash
-docker run --rm -it eggplanter/sh-xmas # launch
+docker run --rm -it eggplanter/sh-xmas:0.0.4 # launch
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ Options:
  -v, --version  output version infromation and exit
 
 Version:
- 0.0.3
+ 0.0.4
 ```
 
 ## Screenshot
