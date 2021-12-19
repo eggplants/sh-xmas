@@ -1,5 +1,9 @@
 # sh-xmas
 
+[![Docker Image Size (latest by date)]](https://hub.docker.com/r/eggplanter/sh-xmas
+) [![Docker Image Version (latest by date)]](https://hub.docker.com/r/eggplanter/sh-xmas
+)
+
 - Plant X'mas tree(s) on your Terminal
 
 ## Install
@@ -62,3 +66,6 @@ MIT
   - [kwappa/pebbles-xmas](https://github.com/kwappa/pebbles-xmas)
 - Clojure
   - [liquidz/clj-xmas](https://github.com/liquidz/clj-xmas)
+
+[Docker Image Size (latest by date)]: https://img.shields.io/docker/image-size/eggplanter/sh-xmas
+[Docker Image Version (latest by date)]: https://img.shields.io/docker/v/eggplanter/sh-xmas
