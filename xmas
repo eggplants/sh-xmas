@@ -94,7 +94,7 @@ _print_tree() {
   )"
 }
 
-_mono(){
+_mono() {
   if [ "$1" = 1 ]; then
     sed 's/\x1b\[[0-9;]*m//g'
   else
@@ -191,9 +191,9 @@ main() {
       done
     done
   else
-     for i in $(eval echo {1.."$line"}); do
-       _print_tree "$size" "$number" | _mono "$monochrome"
-     done
+    for i in $(eval echo {1.."$line"}); do
+      _print_tree "$size" "$number" | _mono "$monochrome"
+    done
   fi
 }
 
