@@ -8,7 +8,7 @@
 #   $ ./deploy.sh
 
 set -euo pipefail
-
+TEST="${TEST:-}"
 vs=(
 0.0.1
 0.0.2
