@@ -12,9 +12,9 @@ trunk='\033[31m| |\033[m'
 
 _help() {
   echo "
-$0 -- Plant X'mas tree(s)
+${0##*/} -- Plant X'mas tree(s)
 
-Usage: $0 [options]
+Usage: ${0##*/} [options]
 
 Options:
  -s, --size <POSITIVE INT>    game level (default=5)
