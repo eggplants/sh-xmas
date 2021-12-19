@@ -6,18 +6,17 @@
 
 ```bash
 curl -sSLo xmas https://git.io/JDi1J
-sudo install -m+x xmas /usr/local/bin
-xmas
+sudo install xmas /usr/local/bin
 ```
 
 ## Usage
 
 ```shellsession
-$ ./xmas -h
+$ xmas -h
 
-./xmas -- Plant X'mas tree(s)
+xmas -- Plant X'mas tree(s)
 
-Usage: ./xmas [options]
+Usage: xmas [options]
 
 Options:
  -s, --size <POSITIVE INT>    game level (default=5)
@@ -30,7 +29,7 @@ Options:
  -v, --version  output version infromation and exit
 
 Version:
- 0.0.2
+ 0.0.3
 ```
 
 ## Screenshot
