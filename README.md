@@ -87,9 +87,11 @@ MIT
 
 ## Other implementation
 
-- Node.js(Original)
+- Node.js
   - [npm/cli/lib/xmas.js](https://github.com/npm/cli/blob/v6.14.15/lib/xmas.js)
-  - removed since npm v7.0.0
+    - Original
+    - removed since npm v7.0.0
+  - [importre/xmas-tree](https://github.com/importre/xmas-tree)
 - Deno
   - [YuG1224/xmas](https://github.com/YuG1224/xmas)
 - Perl
