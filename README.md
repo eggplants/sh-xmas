@@ -90,6 +90,8 @@ MIT
 - Node.js(Original)
   - [npm/cli/lib/xmas.js](https://github.com/npm/cli/blob/v6.14.15/lib/xmas.js)
   - removed since npm v7.0.0
+- Deno
+  - [YuG1224/xmas](https://github.com/YuG1224/xmas)
 - Perl
   - [sugyan/xmas.pl](https://gist.github.com/sugyan/1011836)
 - Ruby
