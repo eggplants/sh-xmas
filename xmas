@@ -180,11 +180,14 @@ main() {
         ;;
     esac
   done
+
+  local tmp_f="$(mktemp)"
   if [ "$animation" = "1" ]; then
     while :; do
       for i in $(eval echo {1.."$line"}); do
         _print_tree "$size" "$number" | _mono "$monochrome"
-      done
+      done > "$tmp_f"
+      cat "$tmp_f"
       sleep "$interval"s
       for i in $(eval echo {1.."$line"}); do
         echo -ne "\\033[$((size + 3))A"
@@ -193,7 +196,8 @@ main() {
   else
     for i in $(eval echo {1.."$line"}); do
       _print_tree "$size" "$number" | _mono "$monochrome"
-    done
+    done > "$tmp_f"
+    cat "$tmp_f"
   fi
 }
 
