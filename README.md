@@ -72,7 +72,7 @@ Options:
  -v, --version  output version infromation and exit
 
 Version:
- 0.0.4
+ 0.0.5
 ```
 
 ## Screenshot
