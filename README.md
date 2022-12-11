@@ -19,13 +19,13 @@ xmas # launch
 ### From Docker(Hub)
 
 ```bash
-docker run --rm -it eggplanter/sh-xmas:0.0.4 # launch
+docker run --rm -it eggplanter/sh-xmas # launch
 ```
 
 ## Usage
 
 ```shellsession
-$ xmas -m n 5 -l 3
+$ xmas -m -n 5 -l 3
       ★      	      ★      	      ★      	      ★      	      ★      
     ／ ＼     	    ／ ＼     	    ／ ＼     	    ／&＼     	    ／ ＼     
    ／ i｡＼    	   ／&@i＼    	   ／  ⸮＼    	   ／& ⸛＼    	   ／   ＼    
