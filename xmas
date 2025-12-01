@@ -17,7 +17,7 @@ ${0##*/} -- Plant X'mas tree(s)
 Usage: ${0##*/} [options]
 
 Options:
- -s, --size <POSITIVE INT>    game level (default=5)
+ -s, --size <POSITIVE INT>    tree size (default=5)
  -n, --number <POSITIVE INT>  number of tree (default=1)
  -l, --line <POSITIVE INT>    number of line (default=1)
  -a, --animation              enable animation
